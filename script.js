@@ -179,7 +179,7 @@ console.log(codify("code")); // if
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 function check3and7(intPositive) {
-    if (intPositive > 0 && intPositive != isNaN) {
+    if (intPositive >= 0 && intPositive != isNaN) {
         if (intPositive % 3 === 0 || intPositive % 7 === 0) {
             return true;
         } else {
