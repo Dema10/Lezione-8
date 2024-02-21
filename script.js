@@ -208,7 +208,7 @@ console.log(check3and7(10));
 // PROVA 1
 
 /* function cutString(stringa) {
-    if (stringa.length >= 1) {
+    if (stringa.length >= 2) {
         return stringa.slice(1, -1);
     } else {
         return console.error("La stringa è troppo piccola per poter togliere il primo e l' ultimo carattere");
