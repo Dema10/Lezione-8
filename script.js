@@ -205,7 +205,9 @@ console.log(check3and7(10));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-function cutString(stringa) {
+// PROVA 1
+
+/* function cutString(stringa) {
     if (stringa.length >= 1) {
         return stringa.slice(1, -1);
     } else {
@@ -213,7 +215,20 @@ function cutString(stringa) {
     }
 }
 
-console.log(cutString("esplodo"));
+console.log(cutString("esplodo")); */
+
+// PROVA 2
+
+function cutString(stringa) {
+    let stringa2 = stringa.split("");
+    let stringaMod = [];
+    for (let i = 1; i < stringa2.length - 1; i++) {
+        stringaMod.push(stringa2[i]);
+    }
+    return stringaMod.join("");
+}
+
+console.log(cutString("ciao"));
 
 /* P.S. MI SONO FATTO ESPLODERE IL CERVELLO CREDENDO CHE SI DOVESSE FARE IN MODO SIMILE ALL' ESERCIZIO 4, INVECE
 PERDO 2 ORE DI SANITA MENTALE PROVANDO E RIPROVANDO SENZA SUCCESSO, ALLE 04.00 DEL MATTINO 
